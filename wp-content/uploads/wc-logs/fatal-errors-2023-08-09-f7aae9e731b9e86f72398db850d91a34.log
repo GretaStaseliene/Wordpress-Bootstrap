@@ -1,0 +1,28 @@
+2023-08-09T13:35:39+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1691): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\class-wp-hook.php(310): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\woocommerce\single-product.php(46): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php on line 25
+
+2023-08-09T13:37:04+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1691): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\class-wp-hook.php(310): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\woocommerce\single-product.php(46): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\woocommerce\single-product\sale-flash.php on line 25
+

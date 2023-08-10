@@ -1,0 +1,500 @@
+/*
+ Theme Name:   Understrap Child
+ Theme URI:    https://understrap.com
+ Description:  Understrap Child Theme
+ Author:       the Understrap Contributors
+ Author URI:   https://github.com/understrap/understrap-child/graphs/contributors
+ Template:     understrap
+ Version:      1.2.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: understrap/understrap-child
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+.nav-item:hover {
+    background-color: orange;
+}
+
+.nav-toggler {
+    width: 44px;
+    height: 34px;
+    background-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-toggler span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+}
+
+.nav-toggler span::before,
+.nav-toggler span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    left: 0;
+}
+
+.nav-toggler span::before {
+    top: -6px;
+}
+
+.nav-toggler span::after {
+    top: 6px;
+}
+
+header #nav-check {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.banner {
+    height: 600px;
+}
+
+.banner-content {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+.image-area img{
+    width: 75%;
+}
+
+.banner-itallic {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: orange;
+    font-size: 36px;
+}
+
+.banner-heading {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 15px;
+}
+
+.section-2-responsive {
+    display: none;
+}
+
+.our-products {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.product, .form-control, .categories, .site {
+    box-shadow: 1px 0px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.newsletter {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.newsletter-p {
+    margin: 0 auto;
+    font-size: 14px;
+    width: 75%;
+}
+
+.form-control, .signup {
+    height: 55px;
+}
+
+.form-check {
+    display: inline-block;
+}
+
+.form-check-input {
+    background-color: rgb(225, 218, 218);
+    width: 15px;
+}
+
+.socials {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.subscribe p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.border-bottomm {
+    border-bottom: 1px solid rgb(108, 107, 107);
+}
+
+.banner-gradient {
+    position: absolute;
+    top: 18px;
+    left: 360px;
+}
+
+.banner-gradient h2 {
+    font-size: 54px;
+    font-weight: 800;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gradient-1 {
+    background-image: linear-gradient(to left, black 18%, orange 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-2 {
+    background-image: linear-gradient(to left, black 17%, orange 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-3 {
+    background-image: linear-gradient(to left, black 0%, orange 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-4 {
+    background-image: linear-gradient(to left, black 4%, orange 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-5 {
+    background-image: linear-gradient(to left, black 0%, orange 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-6 {
+    background-image: linear-gradient(to left, black 10%, orange 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-7 {
+    color: orange;
+}
+
+.stulpelis {
+    text-align: center;
+
+}
+.cs-category-row {
+    box-shadow: 1px 0px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.stulpelis:hover {
+    background-color: orange;
+}
+
+.woocommerce ul.products li.product h2.woocommerce-loop-product__title, .woocommerce ul.products li.product span.price {
+    padding: 5px 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.woocommerce ul.products li.product span.price {
+    color: gray;
+}
+
+.add-to-cart-container {
+    padding: 10px 10px;
+}
+
+.woocommerce div.product form.cart .button {
+    background-color: orange;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 0;
+}
+
+.woocommerce div.product form.cart .button:hover {
+    color: black;
+    background-color: rgb(246, 178, 51);
+}
+
+a.product_type_simple.add_to_cart_button.ajax_add_to_cart, 
+.woocommerce #review_form #respond .form-submit input, 
+#orange-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+a.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover {
+    color: black;
+    background-color: rgb(246, 178, 51);
+}
+
+.woocommerce #review_form #respond .form-submit input:hover {
+    color: black;
+    background-color: rgb(246, 178, 51);
+}
+
+#orange-btn:hover {
+    color: black;
+    background-color: rgb(246, 178, 51);
+}
+
+.posted_in a {
+    text-decoration: none;
+    color: gray;
+}
+
+.posted_in a:hover {
+    color: black;
+}
+
+.stars span a {
+    color: orange;
+}
+
+@media (max-width: 1024px) {
+    .navbar-brand {
+        margin: 0 auto;
+    }
+
+    .banner-gradient {
+        top: 22px;
+        left: 281px;
+    }
+
+    .banner-gradient h2 {
+        font-size: 45px;
+    }
+
+    .image-area img {
+        width: 90%;
+    }
+
+    .section-2 {
+        margin-top: -150px;
+    }
+
+    .section-4 {
+        margin-top: -90px;
+    }
+
+    .image-area-2 img {
+        border-radius: 50%;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-toggler {
+        display: flex;
+    }
+
+    .nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: orange;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 99999;
+    }
+
+    header #nav-check:checked ~ .nav {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    header #nav-check:checked ~ .nav-toggler span {
+        background-color: transparent;
+    }
+
+    header #nav-check:checked ~ .nav-toggler span::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    header #nav-check:checked ~ .nav-toggler span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    .nav .search {
+        display: none;
+    }
+
+    .nav .btn {
+        margin-left: 13px;
+        margin-bottom: 8px;
+    }
+
+    .banner-content {
+        margin-top: -60px;
+    }
+
+    .banner-itallic {
+        font-size: 20px;
+    }
+
+    .banner-heading {
+        font-size: 24px;
+    }
+
+    .banner-description {
+        font-size: 12px;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+    }
+
+    .banner-gradient {
+        top: 5px;
+        left: 194px;
+    }
+
+    .banner-gradient h2 {
+        font-size: 36px;
+    }
+
+    .image-area img {
+        width: 100%;
+    }
+
+    .section-2 {
+        margin-top: -230px;
+    }
+
+    .section-4 {
+        margin-top: 50px;
+        margin-bottom: -200px;
+    }
+
+    .image-area-2 img {
+        border-radius: 50%;
+        margin-top: 60px;
+    }
+
+    .summary {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .image-area {
+        display: none;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .section-2-responsive {
+        display: block;
+        margin-top: -300px;
+    }
+
+    .section-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .image-area {
+        display: none;
+    }
+
+    .image-area-2 img {
+        border-radius: 0;
+        margin-top: -35px;
+    }
+
+    .section-2 {
+        margin-top: -300px;
+    }
+
+    .section-4 .banner-content {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .section-5 p {
+        font-size: 12px;
+    }
+
+    .section-5 {
+        margin-top: 100px;
+    }
+
+    .subscribe {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .contact, .quick-links {
+        display: none;
+    }
+
+    .socials {
+        margin-bottom: 15px;
+    }
+
+    .summary {
+        padding: 20px;
+    }
+}

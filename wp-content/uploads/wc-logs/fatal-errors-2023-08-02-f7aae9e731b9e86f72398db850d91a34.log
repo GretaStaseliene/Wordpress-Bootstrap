@@ -1,0 +1,8 @@
+2023-08-02T14:36:19+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php:128
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php on line 128
+

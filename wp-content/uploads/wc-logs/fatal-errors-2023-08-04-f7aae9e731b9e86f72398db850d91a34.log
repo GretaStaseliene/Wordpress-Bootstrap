@@ -1,0 +1,40 @@
+2023-08-04T14:22:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php on line 130
+
+2023-08-04T14:22:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php on line 130
+
+2023-08-04T14:31:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php on line 131
+
+2023-08-04T14:40:58+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php:137
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php on line 137
+
+2023-08-04T14:41:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Wordpress+Bootstrap\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Wordpress+Bootstrap\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Wordpress+Bootstrap\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Wordpress+Bootstrap\wp-content\themes\understrap-child-main\page-home.php on line 131
+
